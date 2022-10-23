@@ -1,0 +1,3 @@
+video: yt-dlp -f "bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b" https://youtu.be/
+
+audio: yt-dlp --extract-audio --audio-format mp3 https://youtu.be/M
